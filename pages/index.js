@@ -6,12 +6,13 @@ import Crousal from "./components/Crousal";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center p-10">
+    <main className="flex">
      
-      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-4xl">
+      <div className="flex flex-col md:flex-row  w-full">
         {/* Left Side (Image) */}
-        <div className="flex-1 max-w-md md:mr-8">
-          <Image src="/williamstown-1057646.jpg" width={1000} height={400} className="max-w-full h-auto" />
+        <div className="flex flex-col w-screen p-10 bg-black text-white">
+          <h2>Welcome to the <br/> TypeFoam</h2>
+          <Image src="/williamstown-1057646.jpg" width={300} height={200} className="max-w-full h-auto" />
         </div>
 
         {/* Right Side (Questions) */}
