@@ -3,11 +3,11 @@ import React from 'react'
 const homeRight = () => {
   return (
     <div className='homeRight'>
-      <div>
+      {/* <div>
         <button>English</button>
         <button>Let's Create</button>
-      </div>
-      <div>
+      </div> */}
+      <div className='card_1'>
         <div>
             <p>How Does it works</p>
             <span>
@@ -24,9 +24,17 @@ const homeRight = () => {
             Plunge into the world of creating 3D animations using AI technology
         </p>
         </div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div className='card_2'>
+        <p>Explore Collections</p>
+      </div>
+      <div className='card_3'>
+        <p>Have questions? Contact our manager and get answers</p>
+        <div>
+          <span>FAQ</span>
+          <p>Popular</p>
+        </div>
+      </div>
+      {/* <div></div> */}
     </div>
   )
 }

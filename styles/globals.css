@@ -4,6 +4,7 @@
 @tailwind utilities;
 @import "./Navbar.css";
 @import "./homeLeft.css";
+@import "./homeRight.css";
 
 :root {
   --foreground-rgb: 0, 0, 0;
