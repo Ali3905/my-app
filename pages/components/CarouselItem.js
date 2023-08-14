@@ -1,8 +1,12 @@
+"use client"
+
 import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 
-export const CarouselItem = ({ item, width, active, question, options, enable, updateIndex }) => {
+export const CarouselItem = ({ items, width, active, question, options, enable, updateIndex }) => {
     const [btn, setbtn] = useState(false)
+    const router = useRouter()
 
     const showBtn = () => {
         enable(-"a")
@@ -10,7 +14,13 @@ export const CarouselItem = ({ item, width, active, question, options, enable, u
     }
 
     const next = () => {
-        updateIndex(active + 1)
+        if (active === items.length-1) {
+          console.log(items.length);
+          router.push("/home")
+        }else{
+
+          updateIndex(active + 1)
+        }
     }
 
     useEffect(()=>{

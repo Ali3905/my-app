@@ -1,0 +1,16 @@
+.nav_links{
+    ;
+}
+
+.nav_links ul{
+    display: flex;
+    max-width: fit-content;
+    background-color: rgb(64, 82, 116);
+    border-radius: 50px;
+    /* opacity: 0.8; */
+    color: white;
+}
+
+.nav_links li {
+    padding: 5px 15px;
+}
