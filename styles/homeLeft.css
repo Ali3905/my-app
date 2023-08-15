@@ -1,10 +1,10 @@
 .homeleft{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     /* width: 100%;*/
     height: 100vh; 
     
     border: 10px solid white;
-    border-radius: 50px;
+    border-radius: 10px;
     position: relative;
     
     /* bg */
@@ -12,7 +12,8 @@
 .homeLeft{
     position: absolute;
     top: 0;
-    background-color: transparent;
+    /* background-color: transparent; */
+    border-radius: 50px;
     /* width: 100%;*/
     width: 100%;
     height: 100vh; 
@@ -27,6 +28,8 @@
 nav{
     display: flex;
     gap: 150px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 nav h2{
@@ -45,6 +48,8 @@ nav h2{
     background-color: rgb(235, 237, 239);
     max-width: fit-content;
     border-radius: 50px;
+
+    margin-left: 40px;
 }
 
 .copy h2{
@@ -65,7 +70,7 @@ video{
 .bottom_container{
     display: flex;
     align-items: flex-end;
-    gap: 200px;
+    gap: 50px;
 }
 
 .heading_container{
@@ -73,6 +78,7 @@ video{
     color: black;
     display: flex;
     flex-direction: column;
+
 
     /* padding: 10px 15px; */
 }
@@ -85,6 +91,8 @@ div, h1
     width: fit-content;
     padding: 5px 10px;
     position: relative;
+    
+    padding: 0 40px;
 }
 
 
@@ -93,7 +101,7 @@ div, h1
     align-items: center;
     gap: 10px;
     
-    padding: 15px 10px;
+    padding: 15px 40px;
 }
 .heading_container 
 div::before

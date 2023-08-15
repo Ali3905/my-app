@@ -20,12 +20,19 @@ const homeRight = () => {
                 </svg>
              </span>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+        </svg>
+
         <p>
             Plunge into the world of creating 3D animations using AI technology
         </p>
         </div>
       <div className='card_2'>
         <p>Explore Collections</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+        </svg>
       </div>
       <div className='card_3'>
         <p>Have questions? Contact our manager and get answers</p>
@@ -33,6 +40,9 @@ const homeRight = () => {
           <span>FAQ</span>
           <p>Popular</p>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+        </svg>
       </div>
       {/* <div></div> */}
     </div>
