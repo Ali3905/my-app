@@ -45,7 +45,7 @@ nav h2{
     gap: 20px;
     padding: 10px 20px;
 
-    background-color: rgb(235, 237, 239);
+    background-color: rgb(235, 237, 239, .4);
     max-width: fit-content;
     border-radius: 50px;
 
@@ -88,7 +88,7 @@ div, h1
 {
     border-top-right-radius: 20px;
     background-color: white;
-    width: fit-content;
+    width: 35vw;
     padding: 5px 10px;
     position: relative;
     
@@ -139,6 +139,13 @@ div::after
 }
 
 .heading_container h1{
+    width: 40vw;
+    font-size: 75px;
+    /* line-height: 55px; */
+}
+
+.heading_container h1:nth-child(3){
+    width: 50vw;
     font-size: 75px;
     /* line-height: 55px; */
 }

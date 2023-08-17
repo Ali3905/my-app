@@ -40,7 +40,7 @@
 .homeRight .card_1 > div{
    display: flex;
    justify-content: space-between;
-   color: blue;
+   color: rgb(0, 0, 0);
 }
 
 .homeRight .card_1 > div  span{
@@ -51,7 +51,7 @@
 
 
 .homeRight .card_1 > div p{
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     padding: 5px 15px;
     border-radius: 50px;
  }
@@ -65,7 +65,7 @@
  
 
 .homeRight .card_1 > p{
-    background-color: #fff;
+    background-color: rgb(255, 255, 255, .4);
     padding: 5px 5px;
     border-radius: 10px;
     max-width: 200px;
@@ -101,8 +101,8 @@
 }
  .homeRight .card_2 p{
     color: white;
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: 900;
+    font-size: 35px;
  }
 
 
@@ -158,6 +158,6 @@
  .homeRight .card_3 > div span{
     font-size: 42px;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
  }
  
