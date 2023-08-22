@@ -5,6 +5,7 @@
 @import "./Navbar.css";
 @import "./homeLeft.css";
 @import "./homeRight.css";
+@import "./Mockup.css";
 
 :root {
   --foreground-rgb: 0, 0, 0;

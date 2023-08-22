@@ -1,0 +1,20 @@
+.mockup_section{
+    display: flex;
+    /* margin-top: 100px; */
+    padding-top: 50px;
+}
+
+.mockup_section > div{
+    display: flex;   
+    flex-direction: column; 
+}
+
+.mockup_section > div img{
+    width: 20vw;
+    height: 80vh;
+}
+
+.main_mockup img{
+    position: sticky;
+    top: 10vh;
+}
