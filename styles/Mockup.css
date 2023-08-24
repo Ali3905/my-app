@@ -7,11 +7,14 @@
 .mockup_section > div{
     display: flex;   
     flex-direction: column; 
+    margin: 0 5px;
 }
 
 .mockup_section > div img{
     width: 20vw;
     height: 80vh;
+    margin: 5px;
+    border-radius: 20px;
 }
 
 .main_mockup img{
